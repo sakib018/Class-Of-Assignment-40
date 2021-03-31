@@ -1,0 +1,297 @@
+/* Header-section */
+
+.header-nav {}
+
+.header-nav img {
+    width: 2.5rem;
+    margin-top: .6rem;
+    border: 1px solid #78a3fe;
+    border-radius: 11px;
+}
+
+.header-nav span {
+    display: inline-block;
+    position: relative;
+    top: .6rem;
+    margin-left: 1rem;
+}
+
+.header-nav h4 {
+    font-weight: 700;
+    font-size: 1.3rem;
+}
+
+.primary-menu {}
+
+.primary-menu ul {
+    text-align: right;
+}
+
+.primary-menu ul li {
+    list-style: none;
+    display: inline-block;
+}
+
+.primary-menu ul li a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 0 .7rem;
+    color: #000000c9;
+    line-height: 4rem;
+    font-size: 1.2rem;
+}
+
+
+/* user-about*/
+.user-about {
+    background-color: #f9f9ff;
+    padding: 0rem;
+    margin-top: 1rem;
+}
+
+.user-heading {
+    margin-top: 6rem;
+}
+
+.user-heading h4 {
+    color: #000c;
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+}
+
+.user-heading h1 {
+    text-transform: capitalize;
+    font-weight: 600;
+    font-size: 2.7rem;
+    margin-bottom: 1.2rem;
+}
+
+.user-heading p {
+    color: #000000c4;
+    margin-bottom: 3rem;
+}
+
+.user-image {
+    text-align: right;
+}
+
+.user-image img {
+    width: 30rem;
+}
+
+.user-heading a {
+
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #8392ff;
+    padding: 1rem 2rem;
+    border-radius: .7rem;
+    font-size: 1.3rem;
+}
+
+
+/* about-section */
+.about-section {
+    margin-top: 5rem;
+}
+
+.about-image {}
+
+.about-image img {
+    width: 28rem;
+    height: auto;
+    border: 1px solid #ddd;
+}
+
+.about-subtitle {}
+
+.about-subtitle h5 {
+    color: #000000d4;
+    font-size: 1.6rem;
+}
+
+.about-subtitle h1 {
+    font-size: 2.7rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+.about-subtitle p {
+    color: #000000bd;
+    margin-bottom: 3rem;
+}
+
+.about-subtitle a {
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #8392ff;
+    padding: 1rem 2rem;
+    border-radius: .7rem;
+    font-size: 1.3rem;
+
+}
+
+/* .work-deliver-section*/
+
+
+
+.work-deliver-section {
+    background-color: #8490ff;
+    margin-top: 7rem;
+    padding: 5rem;
+    text-align: center;
+    color: #fff;
+}
+
+.work-deliver-section h1 {
+    font-weight: 700;
+    font-size: 3.7rem;
+}
+
+.work-deliver-section h3 {
+    font-size: 1.8rem;
+}
+
+
+
+/* pricing-section */
+.pricing-section {
+    text-align: center;
+    background-color: #f7f9ff;
+    padding: 1rem;
+
+    margin-top: 3rem;
+}
+
+.paricing-tabel {
+    margin-top: 3rem;
+    padding: 1rem;
+}
+
+.pricing-section h1 {
+    font-weight: 502;
+    font-size: 2.8rem;
+    margin-bottom: 2rem;
+}
+
+.pricing-section h4 {
+    color: #0000008f;
+    margin: 1rem;
+    font-size: 1.2rem;
+}
+
+.paricing-tabel h1 {
+    background-color: #dddddd3b;
+    border-radius: 5rem;
+    width: 9rem;
+    margin: auto;
+    height: 6rem;
+    line-height: 6rem;
+}
+
+.paricing-tabel p {}
+
+.paricing-tabel h3 {}
+
+.paricing-tabel .button a {
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #8392ff;
+    padding: 1rem 2rem;
+    border-radius: .7rem;
+    font-size: 1.3rem;
+}
+
+.paricing-tabel .button {
+    padding: 1rem;
+}
+
+
+
+/* card-section */
+
+.card-section {
+    margin-top: 8rem;
+}
+
+.card-header .card .card-body img {
+    width: 9rem !important;
+    position: relative;
+    top: -5rem;
+    left: -1.5rem;
+    border-radius: 8px 8px 0 0;
+}
+
+.card-header h5 {}
+
+.card-header h4 {
+    margin-top: -2rem;
+    color: #000;
+    font-size: 1.8rem;
+}
+
+
+
+/* contact-section */
+
+
+
+.contact-section {
+    margin-top: 7rem;
+}
+
+
+.contact-section .user-adress {
+
+    margin-top: 4rem;
+    margin-left: 10rem;
+}
+
+.user-adress h3 {
+    margin-top: 1rem;
+}
+
+.user-adress h1 {
+    margin-bottom: 2rem;
+    color: #000;
+    font-weight: 500;
+}
+
+
+/* footer-section */
+.footer-section h4 {}
+
+.footer-section {
+    text-align: center;
+    background: #04091e;
+    COLOR: #FFF;
+    padding: 1rem;
+    margin-top: 10rem;
+}
+
+
+
+/* Responsive.css */
+
+@media all and (max-width:992px){
+    .primary-menu ul li a {
+        padding:.3rem;
+        line-height: 4rem;
+        font-size: 1rem;
+    }
+    .primary-menu ul {
+        margin-bottom: 0;
+        padding-bottom;0:
+    }
+    .header-nav h4 {
+        font-weight: 600;
+        font-size: 1.2rem;
+        
+    }
+}
+
+@media all and (max-width:768px){
+    .header-nav {
+        line-height: 4rem;
+    }
+}
